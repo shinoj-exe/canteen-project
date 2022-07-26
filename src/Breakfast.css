@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+button {
+  border: none;
+  cursor: pointer;
+}
+.content{
+    display: flex;
+  }
+  .content-halfs{
+    flex: 1;
+    padding: 2rem;
+  }
+
+  li{
+    list-style: none;
+  }
+  .path{
+    font-family: "Heebo", sans-serif;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: #B4A4A2;
+    text-align: left;
+    padding-left: 15rem;
+  }
+  .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0;
+  }
+
+  .price-section{
+    padding: 7rem;
+  }
+  .price-titles{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-title p{
+    color: #5E3D2E;
+    text-align: left;
+    padding-left:15rem ;
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5rem;
+  }
+  .price-section{
+    padding: 3rem 10rem ;
+  }
+  .price-titles li{
+    color: #B4A4A2;
+    font-size: 12px;
+  }
+  .item{
+    font-size: 16px;
+  }
+  .cart-section{
+    padding-top: 0;
+  }
+  .btn{
+  font-size: 1.5rem;
+  font-family: "Archivo", sans-serif;
+  color: #fdfcfc;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  background-color: #d5311d;
+  border-radius: 4rem;
+  border: none;
+  }

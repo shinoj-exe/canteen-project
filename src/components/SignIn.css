@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.SignIn-wrapper{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 300px;
+    min-height:500px ;
+    margin: 0 auto;
+}
+.heading{
+    margin: 5rem 0;
+    margin-top: 4.8;
+}
+.heading h2{
+    font-family: "Archivo", sans-serif;
+    font-size: 2.9rem;
+}
+.heading p{
+    font-family: "Heebo", sans-serif;
+    color: #b4a4a2;
+    margin: 0.7rem 0;
+    font-size: 1.6rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.login-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-input input{
+    width: 100%;
+}
+.input-text {
+    padding: 1.6rem;
+    width: 26.5rem;
+    border: 0.2rem solid #0a0807;
+    border-radius: 0.8rem;
+    margin: 1.2rem 0;
+  }
+
+.input-text::placeholder {
+    color: #0a0807;
+    font-size: 1.6rem;
+}
+.frgtPass{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.frgtPass a{
+    font-family: "Heebo", sans-serif;
+    color: #103fe4;
+    font-size: 1.4rem;
+    line-height: 130%;
+}
+.checkbox-remember {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .checkbox-remember label {
+    font-size: 1.6rem;
+    color: #0a0807;
+  }
+  .checkbox-remember input {
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 0.1rem solid #0a0807;
+  }
+
+  .login-btn{
+    margin: 1rem 0;
+  }
+  .normal-login button{
+    padding: 1.6rem 4rem;
+    background-color: #d5311d;
+    border-radius: 4rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-family: "Archivo", sans-serif;
+    font-size: 2rem;
+  }
+  .google-login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .google-login button{
+    padding: 1rem 0.5rem;
+  }

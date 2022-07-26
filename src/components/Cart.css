@@ -1,0 +1,71 @@
+.cart-title{
+  font-family: "Archivo", sans-serif;
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+.cart-titles{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+  }
+.cart-titles li{
+  color: #B4A4A2;
+    font-size: 12px;
+}
+  .cartItem{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .cart-item-qty{
+    display: flex;
+  }
+  .qty-btn{
+    margin: 0rem 3rem;
+  }
+  .singleItemDetails{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    font-size: 16px;
+
+  }
+  .itemDetails{
+    display: flex;
+    justify-content: space-around;
+  }
+  .empty-text{
+    font-family: "Heebo", sans-serif;
+    padding: 2rem;
+    font-size: 2rem;
+    color: #B4A4A2;
+    text-align: center;
+  }
+  .cart-total{
+    color: #5E3D2E;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 4rem 0;
+  }
+  .cart-item-qty button{
+    background: none;
+    color: #d5311d;
+  }
+  .payment-btns{
+    display: flex;
+    justify-content: space-around;
+  }
+  .payment-btn{
+  font-family: "Archivo", sans-serif;
+    background: none;
+    padding: 16px 24px;
+    border-radius: 16px;
+  }
+  .without-btn button{
+    background-color: #5E3D2E;
+    color: white;
+  }
+  .with-btn button{
+    background-color: #d5311d;
+    color: white;
+  }
